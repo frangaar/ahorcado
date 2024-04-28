@@ -1,0 +1,167 @@
+#gameInfo,#gamePanel{
+    font-family: 'Fredericka the Great', serif;
+    color: white;
+}
+
+body{
+    background-image: url('../img/fondo.png');
+}
+
+#lblUserName, #lblCategoria,#lblTiempo{
+    font-size: 35px;
+}
+
+#lblFallos{
+    display: block;
+    font-size: 25px;
+}
+
+#userName, #categoria,#tiempoJuego{
+    font-size: 24px;
+}
+
+#gameInfo .categoria{
+    text-align: right;
+}
+
+#gamePanel{
+    padding-top: 60px;
+}
+
+#gamePanel #palabra{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#gamePanel #palabra label{
+    width: 60px;
+    height: 30px;
+}
+
+.letra{
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 2px;
+    margin-top: 2px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-weight: 800;
+}
+
+.letra:hover{
+    background-color: transparent;
+    border-color: white;
+    color: black;
+    background-color: lightgray;    
+}
+
+.letra:disabled{
+    background-color: transparent !important;
+    border-color: white;
+    color: white;
+    opacity: 0.3;
+}
+
+.letraOculta{
+    display: inline-block;
+    width: 84px;
+    text-align: center;
+    margin-right: 2px;
+    margin-top: 2px;
+    font-weight: 800;
+    background-image: url(../img/letra.png);
+    background-size: 93px;
+    height: 7px;
+    font-size: 30px;
+}
+
+#panel{
+    width: 957px;
+    margin: auto;
+}
+
+#letras{
+    max-width: 667px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#dibujo{
+    max-width: 260px;
+    margin-top: 15px;
+    font-size:0;
+    display: inline-block;
+}
+
+#dibujo img.dibujo{
+    width: 100px;
+    opacity: 0;
+}
+
+#wordInfo{
+    display: none;
+}
+
+#wordInfo #info .card{
+    margin: auto;
+    font-family: 'Fredericka the Great', serif;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#wordInfo #info .card .card-body .card-title{
+    font-size: 35px;
+}
+
+#wordInfo #info .card .card-body .card-text{
+    font-size: 22px;
+}
+
+#wordInfo #info .card img{
+    border-radius: 80px;
+}
+
+.mostrar{
+    display: block;
+    opacity: 1;
+}
+
+#reintentar .modal-dialog{
+    margin-top: 262px;
+}
+
+#reintentar .modal-dialog .modal-content{
+    backdrop-filter: blur(5px) saturate(70%);
+    background-color: transparent;
+    font-family: 'Fredericka the Great', serif;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0px 0px 4px 4px #FFFFFF;
+}
+
+#reintentar .modal-dialog .modal-content #si{
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+
+#reintentar .modal-dialog .modal-content #no{
+    background-color: #f01000;
+    border-color: #f01000;
+}
+
+#exit{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#salir{
+    background-color: #f01000;
+    border-color: #f01000;
+}

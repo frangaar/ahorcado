@@ -1,0 +1,85 @@
+body,#ranking .modal-content{
+    background-image: url('../img/fondo.png');
+}
+
+#ranking .modal-content .modal-header{
+    color: white;
+    font-family: 'Fredericka the Great', serif;
+}
+
+#ranking .modal-content .modal-header #cerrar{
+    color: white;
+    font-family: 'Fredericka the Great', serif;
+}
+
+#ranking #cerrar{
+    background-color: white;
+}
+
+.mostrar{
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.mostrar#modal .modal-content{
+    backdrop-filter: blur(5px) saturate(70%);
+    background-color: transparent;
+    font-family: 'Fredericka the Great', serif;
+}
+
+.mostrar#modal .modal-content .modal-title{
+    color: white;
+}
+
+#ranking .contenedor-palabra{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#ranking table,#ranking thead,#ranking tbody,#ranking tr,#ranking td,#ranking th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.contenedor-palabra .palabra{
+    border: 1px solid black;
+    background-color: #328fa8;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+#corona{
+    width: 50px;
+    position: absolute;
+    right: -10px;
+    top: -11px;
+    transform: rotate(22deg);
+}
+
+#verRanking{
+    z-index: 500;
+    background-image: url('../img/ranking.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    width: 113px;
+    background-color: white;
+}
+
+#userName{
+    font-weight: 800;
+}
+
+#iniciar{
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+
+#ranking .contenedor-palabra th,#ranking .contenedor-palabra td{
+    border-color: white;
+}
